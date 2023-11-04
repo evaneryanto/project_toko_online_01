@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('pesanans', function (Blueprint $table) {
             $table->id();
+            $table->integer('id_user');
             $table->timestamps();
         });
     }
