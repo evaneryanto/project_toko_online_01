@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('barangs', function (Blueprint $table) {
             $table->bigIncrements('id_barang');
-            $table->string('namma_barang');
+            $table->string('nama_barang');
             $table->integer('stok_barang');
             $table->integer('harga_barang');
             $table->string('keterangan');
